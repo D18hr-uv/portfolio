@@ -24,7 +24,7 @@ function Projects() {
               imgPath={dashcraft}
               isBlog={false}
               title="DashCraft"
-              description="**DashCraft** is a Flask-based interactive data visualization dashboard that allows users to upload datasets and create dynamic visualizations such as line charts, scatter plots, and pie charts. It features customizable axis selection, a light/dark mode toggle, and a sleek, responsive design. DashCraft provides an intuitive interface for effective data exploration and analysis."
+              description="DashCraft is a Flask-based interactive data visualization dashboard that allows users to upload datasets and create dynamic visualizations such as line charts, scatter plots, and pie charts. It features customizable axis selection, a light/dark mode toggle, and a sleek, responsive design. DashCraft provides an intuitive interface for effective data exploration and analysis."
               ghLink="https://github.com/D18hr-uv/DashCraft"
               demoLink="https://dashcraft.onrender.com/"
             />
