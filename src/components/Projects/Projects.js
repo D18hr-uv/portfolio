@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chai_shai from "../../Assets/Projects/chai_shai.png";
-import dashcraft from "../../Assets/Projects/dashcraft.png";
+import dashcraft from "../../Assets/Projects/dashcraft.jpg";
 import hp from "../../Assets/Projects/1712517375480.jpg";
 import ml from "../../Assets/Projects/ml.jpg";
 
