@@ -39,6 +39,16 @@ function Projects() {
               demoLink="https://d18hr-uv.github.io/Chai_Shai/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chai_shai}
+              isBlog={false}
+              title="Chai - Shai"
+              description="This is a HTML & CSS based snacks ordering website, where one can order various kinds of snacks as per need."
+              ghLink="https://github.com/D18hr-uv/Chai_Shai"
+              demoLink="https://d18hr-uv.github.io/Chai_Shai/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
