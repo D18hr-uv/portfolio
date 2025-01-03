@@ -21,12 +21,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={dashcraft}
+              imgPath={chai_shai}
               isBlog={false}
-              title="DashCraft"
-              description="DashCraft is a Flask-based interactive data visualization dashboard that allows users to upload datasets and create dynamic visualizations such as line charts, scatter plots, and pie charts. It features customizable axis selection, a light/dark mode toggle, and a sleek, responsive design. DashCraft provides an intuitive interface for effective data exploration and analysis."
-              ghLink="https://github.com/D18hr-uv/DashCraft"
-              demoLink="https://dashcraft.onrender.com/"
+              title="Chai - Shai"
+              description="This is a HTML & CSS based snacks ordering website, where one can order various kinds of snacks as per need."
+              ghLink="https://github.com/D18hr-uv/Chai_Shai"
+              demoLink="https://d18hr-uv.github.io/Chai_Shai/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -50,9 +50,6 @@ function Projects() {
               demoLink="https://d18hr-uv.github.io/HarryPotter/"
             />
           </Col>
-        </Row>
-        
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ml}
