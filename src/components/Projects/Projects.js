@@ -50,7 +50,9 @@ function Projects() {
               demoLink="https://d18hr-uv.github.io/HarryPotter/"
             />
           </Col>
-
+        </Row>
+        
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ml}
