@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chai_shai from "../../Assets/Projects/chai_shai.png";
+import dashcraft from "../../Assets/Projects/dashcraft.png";
 import hp from "../../Assets/Projects/1712517375480.jpg";
 import ml from "../../Assets/Projects/ml.jpg";
 
@@ -21,12 +22,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chai_shai}
+              imgPath={dashcraft}
               isBlog={false}
-              title="Chai - Shai"
-              description="This is a HTML & CSS based snacks ordering website, where one can order various kinds of snacks as per need."
-              ghLink="https://github.com/D18hr-uv/Chai_Shai"
-              demoLink="https://d18hr-uv.github.io/Chai_Shai/"
+              title="DashCraft"
+              description="DashCraft is a Flask-based interactive data visualization dashboard that allows users to upload datasets and create dynamic visualizations such as line charts, scatter plots, and pie charts. It features customizable axis selection, a light/dark mode toggle, and a sleek, responsive design."
+              ghLink="https://github.com/D18hr-uv/DashCraft"
+              demoLink="https://dashcraft.onrender.com/"
             />
           </Col>
           <Col md={4} className="project-card">
