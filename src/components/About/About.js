@@ -7,7 +7,6 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import LeetCodeCalendar from "./LeetcodeCalender";
 
 function About() {
   return (
@@ -48,7 +47,6 @@ function About() {
         <Toolstack />
 
         <Github />
-        <LeetCodeCalendar />
       </Container>
     </Container>
   );
