@@ -1,0 +1,20 @@
+# Node.js dependencies
+node_modules/
+
+# Build and dist directories
+dist/
+build/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
