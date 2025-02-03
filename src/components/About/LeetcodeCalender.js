@@ -7,7 +7,7 @@ const LeetCodeCalendar = () => {
   const [lastDayOfWeek, setLastDayOfWeek] = useState(new Date(today.getFullYear(), today.getMonth(), today.getDate() + (6 - today.getDay())));
 
   useEffect(() => {
-    fetch('https://leetcode.com/api/v1/user/calendar/')
+    fetch('https://leetcode.com/api/v1/d3bhardwaj/calendar/')
       .then(response => response.json())
       .then(data => {
         setCalendarData(data.calendar);
