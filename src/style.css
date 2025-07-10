@@ -741,3 +741,27 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.stylish-card {
+  background-color: #1e1e2f;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  color: #ffffff;
+}
+
+.stylish-card:hover {
+  transform: scale(1.05);
+}
+
+.project-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff6f61;
+}
+
+.tech-stack {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #b0b0b0;
+}
