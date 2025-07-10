@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import chai_shai from "../../Assets/Projects/chai_shai.png";
 import dashcraft from "../../Assets/Projects/dashcraft.jpg";
 import dragonfly from "../../Assets/Projects/image.png";
-import CodeAmie from "../../Assets/Projects/CodeAmie.jpg";
+import CodeAmie from "../../Assets/Projects/CodeAmie.png";
 import hp from "../../Assets/Projects/1712517375480.jpg";
 import ml from "../../Assets/Projects/ml.jpg";
 
