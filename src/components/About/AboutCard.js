@@ -13,15 +13,14 @@ function AboutCard() {
             <br />
             I am currently a Computer Science Engineeing Student at <span className="purple">Netaji Subhas University of Technology </span>
             <br />
-            I have completed an project based internship in <span className="purple">Data Science </span> under <span className="purple">Wissenaire, IIT Bhubaneswar (1stop.ai). </span>
-            Mesra.
+            I have completed an project based internship in <span className="purple">Data Science </span> at <span className="purple"> Personiwfy. </span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Painting
             </li>
             <li className="about-activity">
               <ImPointRight /> Reading Novels
