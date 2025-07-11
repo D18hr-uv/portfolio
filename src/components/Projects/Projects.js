@@ -4,7 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chai_shai from "../../Assets/Projects/chai_shai.png";
 import dashcraft from "../../Assets/Projects/dashcraft.jpg";
-import dragonfly from "../../Assets/Projects/image.png";
+import dragonfly from "../../Assets/Projects/dragonfly.png";
+import stocksathi from "../../Assets/Projects/stocksathi.png";
 import CodeAmie from "../../Assets/Projects/CodeAmie.png";
 import hp from "../../Assets/Projects/1712517375480.jpg";
 import ml from "../../Assets/Projects/ml.jpg";
@@ -30,6 +31,17 @@ function Projects() {
               techStack={["React.js, Tailwind CSS, Google Gemini API"]}
               description="CodeAmie is a web app that uses Google’s Gemini model to provide AI-powered code reviews across multiple languages, including JavaScript, Python, C++, and more. It offers real-time feedback on code quality, best practices, and potential bugs. With syntax highlighting, clipboard support, and a sleek dark-themed UI, CodeAmie delivers a smooth and user-friendly developer experience."
               ghLink="https://github.com/D18hr-uv/CodeAmie"
+              demoLink="https://code-amie.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={stocksathi}
+              isBlog={false}
+              title="STOCK-SATHI"
+              techStack={["Python, Streamlit, yfinance, Plotly, Pandas, Numpy, Matplotlib"]}
+              description="Stock-Sathi is an industry-grade, end-to-end data analytics platform that enables real-time stock price monitoring, visualization, and alerting. It fetches live data using the yfinance API, plots interactive charts with Plotly, and notifies users of significant price fluctuations. The dashboard, built with Streamlit, also allows users to download historical data in CSV format, making it ideal for both real-time tracking and offline analysis."
+              ghLink="https://github.com/D18hr-uv/Stock-Sathi"
               demoLink="https://code-amie.vercel.app/"
             />
           </Col>
@@ -61,7 +73,7 @@ function Projects() {
               isBlog={false}
               title="CHAI - SHAI"
               techStack={["HTML, CSS, JavaScript"]}
-              description="This is a HTML & CSS based snacks ordering website, where one can order various kinds of snacks as per need."
+              description="This is a HTML & CSS based snacks ordering website, where one can order various kinds of snacks as per need. It is a static website which is responsive on all screen sizes. It also has a responsive navigation bar and a footer with social media links."
               ghLink="https://github.com/D18hr-uv/Chai_Shai"
               demoLink="https://d18hr-uv.github.io/Chai_Shai/"
             />
@@ -73,7 +85,7 @@ function Projects() {
               isBlog={false}
               title="HARRY POTTER THEME PAGE"
               techStack={["HTML, CSS"]}
-              description="This is a basic HTML & CSS website which. It is basically a Harry Potter theme page in which, I use different CSS styling methods to develop a beautiful theme page."
+              description="This is a basic HTML & CSS website which. It is basically a Harry Potter theme page in which, I use different CSS styling methods to develop a beautiful theme page. It uses a responsive design and a simple yet colorful layout. It also contains a simple navigation bar and a footer with social media links."
               ghLink="https://github.com/D18hr-uv/HarryPotter"
               demoLink="https://d18hr-uv.github.io/HarryPotter/"
             />
