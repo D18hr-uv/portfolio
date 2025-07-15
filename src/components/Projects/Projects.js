@@ -42,7 +42,7 @@ function Projects() {
               techStack={["Python, Streamlit, yfinance, Plotly, Pandas, Numpy, Matplotlib"]}
               description="Stock-Sathi is an industry-grade, end-to-end data analytics platform that enables real-time stock price monitoring, visualization, and alerting. It fetches live data using the yfinance API, plots interactive charts with Plotly, and notifies users of significant price fluctuations. The dashboard, built with Streamlit, also allows users to download historical data in CSV format, making it ideal for both real-time tracking and offline analysis."
               ghLink="https://github.com/D18hr-uv/Stock-Sathi"
-              demoLink="https://code-amie.vercel.app/"
+              demoLink="https://stock-sathi.streamlit.app/"
             />
           </Col>
           <Col md={4} className="project-card">
