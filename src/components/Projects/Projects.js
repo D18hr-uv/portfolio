@@ -7,6 +7,7 @@ import dashcraft from "../../Assets/Projects/dashcraft.jpg";
 import dragonfly from "../../Assets/Projects/dragonfly.png";
 import stocksathi from "../../Assets/Projects/stocksathi.png";
 import CodeAmie from "../../Assets/Projects/CodeAmie.png";
+import NextHire_AI from "../../Assets/Projects/Nexthire_ai.png";
 import hp from "../../Assets/Projects/1712517375480.jpg";
 import ml from "../../Assets/Projects/ml.jpg";
 
@@ -23,6 +24,17 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={NextHire_AI}
+              isBlog={false}
+              title="NEXTHIRE AI"
+              techStack={["NEXT.js, React.js, Tailwind CSS, Drizzle ORM, Clerk, Google Gemini API"]}
+              description="Nexthire AI is a full-stack mock interview platform designed to help developers enhance their skills. Built with Next.js and React, it uses the Google Gemini AI to generate custom questions and provide instant, real-time feedback. The application features secure user authentication via Clerk and data persistence with Drizzle ORM for a personalized, interactive practice experience."
+              ghLink="https://github.com/D18hr-uv/NextHire-AI"
+              demoLink="https://nexthire-ai.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={CodeAmie}
