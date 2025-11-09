@@ -7,6 +7,7 @@ import dashcraft from "../../Assets/Projects/dashcraft.jpg";
 import dragonfly from "../../Assets/Projects/dragonfly.png";
 import stocksathi from "../../Assets/Projects/stocksathi.png";
 import CodeAmie from "../../Assets/Projects/CodeAmie.png";
+import CardioScribe from "../../Assets/Projects/CardioScribe.png";
 import NextHire_AI from "../../Assets/Projects/Nexthire_ai.png";
 import hp from "../../Assets/Projects/1712517375480.jpg";
 import ml from "../../Assets/Projects/ml.jpg";
@@ -55,6 +56,17 @@ function Projects() {
               description="Stock-Sathi is an industry-grade, end-to-end data analytics platform that enables real-time stock price monitoring, visualization, and alerting. It fetches live data using the yfinance API, plots interactive charts with Plotly, and notifies users of significant price fluctuations. The dashboard, built with Streamlit, also allows users to download historical data in CSV format, making it ideal for both real-time tracking and offline analysis."
               ghLink="https://github.com/D18hr-uv/Stock-Sathi"
               demoLink="https://stock-sathi.streamlit.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CardioScribe}
+              isBlog={false}
+              title="CARDIOSCRIBE"
+              techStack={["Python,Json, Scikit-learn, Pandas, Joblib, Streamlit"]}
+              description="CardioScribe is an end-to-end machine learning application that predicts the 10-year risk of heart disease. Developed using Python, the project involved cleaning a complex dataset with Pandas and training a RandomForestClassifier via Scikit-learn. The serialized model is deployed in a user-friendly Streamlit web app, providing real-time predictions based on 13 interactive medical inputs."
+              ghLink="https://github.com/D18hr-uv/CardioScribe"
+              demoLink="https://cardioscribe.streamlit.app/"
             />
           </Col>
           <Col md={4} className="project-card">
